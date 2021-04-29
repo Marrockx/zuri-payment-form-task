@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background-color: #2b2e4a;
+  font-family: Poppins;
+  font-weight: 300;
+}
+
+.wrapper {
+  background-color: #fefefe;
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2em;
+  border-radius: 1.2em;
+}
+
+.wrapper h2 {
+  color: #53354a;
+  padding: 1em 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.input-box {
+  margin-bottom: 2em;
+}
+
+form h4,
+.input-box h4 {
+  margin-bottom: 1em;
+}
+
+.input-box input[type="text"],
+input[type="email"],
+input[type="tel"],
+.input-box select {
+  padding: 0 1em;
+  height: 40px;
+  width: 80%;
+  border: none;
+  background-color: #dddddd;
+  font-family: Poppins;
+  border-radius: 4px;
+}
+
+.input-box input.dob,
+.input-box select {
+  width: 20%;
+  padding-right: 0.4em;
+  margin: auto;
+}
+
+.input-box i {
+  padding-right: 1em;
+  text-align: left;
+  float: left;
+  color: #903749;
+}
+
+.radio {
+  color: #903749;
+}
+
+i.fa-envelope,
+i.fa-credit-card {
+  padding-right: 0.7em;
+}
+
+i.fa-cc-visa,
+i.fa-cc-paypal {
+  float: none;
+  font-size: 1.2em;
+}
+
+.input-box select,
+button[type="submit"] {
+  margin-left: 2em;
+}
+
+button[type="submit"] {
+  width: 250px;
+  height: 40px;
+  background-color: #53354a;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 16%;
+}
+
+button:hover {
+  background-color: #903749;
+  color: #ffffff;
+}
